@@ -589,9 +589,13 @@ add_executable(tpApp2 applicationsSrc/tpApp2/tpApp2Code.cpp applicationsSrc/tpAp
 target_link_libraries(tpApp2 -lBlinkyBlocks -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
 install(TARGETS tpApp2 RUNTIME DESTINATION applicationsBin/tpApp2)
 
-add_executable(myfirstmotion applicationsSrc/myfirstmotion/myfirstmotion.cpp applicationsSrc/myfirstmotion/myfirstmotionCode.cpp)
-target_link_libraries(myfirstmotion -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
-install(TARGETS myfirstmotion RUNTIME DESTINATION applicationsBin/myfirstmotion)
+add_executable(tpAppMotion3 applicationsSrc/tpAppMotion3/tpAppMotion.cpp applicationsSrc/tpAppMotion3/tpAppMotionCode.cpp)
+target_link_libraries(tpAppMotion3 -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS tpAppMotion3 RUNTIME DESTINATION applicationsBin/tpAppMotion3)
+
+add_executable(tpAppMotion4 applicationsSrc/tpAppMotion4/tpAppMotion4.cpp applicationsSrc/tpAppMotion4/tpAppMotionCode4.cpp)
+target_link_libraries(tpAppMotion4 -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS tpAppMotion4 RUNTIME DESTINATION applicationsBin/tpAppMotion4)
 
 #################################################################################
 ############################ REPLAYER ###########################################
