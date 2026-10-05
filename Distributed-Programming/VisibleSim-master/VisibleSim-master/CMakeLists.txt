@@ -597,6 +597,22 @@ add_executable(tpAppMotion4 applicationsSrc/tpAppMotion4/tpAppMotion4.cpp applic
 target_link_libraries(tpAppMotion4 -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
 install(TARGETS tpAppMotion4 RUNTIME DESTINATION applicationsBin/tpAppMotion4)
 
+add_executable(BorderTracing applicationsSrc/BorderTracing/BorderTracing.cpp applicationsSrc/BorderTracing/BorderTracingCode.cpp)
+target_link_libraries(BorderTracing -lBlinkyBlocks -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS BorderTracing RUNTIME DESTINATION applicationsBin/BorderTracing)
+
+add_executable(SlidingCube applicationsSrc/SlidingCube/SlidingCube.cpp applicationsSrc/SlidingCube/SlidingCubeCode.cpp)
+target_link_libraries(SlidingCube -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS SlidingCube RUNTIME DESTINATION applicationsBin/SlidingCube)
+
+add_executable(ABC_Center applicationsSrc/ABC_Center/tpAppMotion/tpAppMotion.cpp applicationsSrc/ABC_Center/tpAppMotion/tpAppMotionCode.cpp)
+target_link_libraries(ABC_Center -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS ABC_Center RUNTIME DESTINATION applicationsBin/ABC_Center)
+
+add_executable(tpAppMotion2 applicationsSrc/ABC_Center/tpAppMotion2/tpAppMotion2.cpp applicationsSrc/ABC_Center/tpAppMotion2/tpAppMotionCode2.cpp)
+target_link_libraries(tpAppMotion2 -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS tpAppMotion2 RUNTIME DESTINATION applicationsBin/tpAppMotion2)
+
 #################################################################################
 ############################ REPLAYER ###########################################
 #################################################################################

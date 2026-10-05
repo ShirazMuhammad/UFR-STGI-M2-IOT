@@ -1,0 +1,22 @@
+<world gridSize="20,20,2" windowSize="1800,900">
+    <scheduler mode="0"/>
+    <blockList color="127,127,127" size="1,1,1" blockSize="40,40,41">
+        <!-- Top Wall (3 Layers Deep: Y = 2, 3, 4) -->
+        <block position="2,2,0"/><block position="3,2,0"/><block position="4,2,0"/><block position="5,2,0"/><block position="6,2,0"/><block position="7,2,0"/><block position="8,2,0"/><block position="9,2,0"/><block position="10,2,0"/><block position="11,2,0"/><block position="12,2,0"/><block position="13,2,0"/>
+        <block position="2,3,0"/><block position="3,3,0"/><block position="4,3,0"/><block position="5,3,0"/><block position="6,3,0"/><block position="7,3,0"/><block position="8,3,0"/><block position="9,3,0"/><block position="10,3,0"/><block position="11,3,0"/><block position="12,3,0"/><block position="13,3,0"/>
+        <block position="2,4,0"/><block position="3,4,0"/><block position="4,4,0"/><block position="5,4,0"/><block position="6,4,0"/><block position="7,4,0"/><block position="8,4,0"/><block position="9,4,0"/><block position="10,4,0"/><block position="11,4,0"/><block position="12,4,0"/><block position="13,4,0"/>
+
+        <!-- Middle Vertical Pillars (Left & Right 3-Block Thickness) -->
+        <block position="2,5,0"/><block position="3,5,0"/><block position="4,5,0"/><block position="11,5,0"/><block position="12,5,0"/><block position="13,5,0"/>
+        <block position="2,6,0"/><block position="3,6,0"/><block position="4,6,0"/><block position="11,6,0"/><block position="12,6,0"/><block position="13,6,0"/>
+        <block position="2,7,0"/><block position="3,7,0"/><block position="4,7,0"/><block position="11,7,0"/><block position="12,7,0"/><block position="13,7,0"/>
+        <block position="2,8,0"/><block position="3,8,0"/><block position="4,8,0"/><block position="11,8,0"/><block position="12,8,0"/><block position="13,8,0"/>
+        <block position="2,9,0"/><block position="3,9,0"/><block position="4,9,0"/><block position="11,9,0"/><block position="12,9,0"/><block position="13,9,0"/>
+        <block position="2,10,0"/><block position="3,10,0"/><block position="4,10,0"/><block position="11,10,0"/><block position="12,10,0"/><block position="13,10,0"/>
+
+        <!-- Bottom Wall (3 Layers Deep: Y = 11, 12, 13) -->
+        <block position="2,11,0"/><block position="3,11,0"/><block position="4,11,0"/><block position="5,11,0"/><block position="6,11,0"/><block position="7,11,0"/><block position="8,11,0"/><block position="9,11,0"/><block position="10,11,0"/><block position="11,11,0"/><block position="12,11,0"/><block position="13,11,0"/>
+        <block position="2,12,0"/><block position="3,12,0"/><block position="4,12,0"/><block position="5,12,0"/><block position="6,12,0"/><block position="7,12,0"/><block position="8,12,0"/><block position="9,12,0"/><block position="10,12,0"/><block position="11,12,0"/><block position="12,12,0"/><block position="13,12,0"/>
+        <block position="2,13,0"/><block position="3,13,0"/><block position="4,13,0"/><block position="5,13,0"/><block position="6,13,0"/><block position="7,13,0"/><block position="8,13,0"/><block position="9,13,0"/><block position="10,13,0"/><block position="11,13,0"/><block position="12,13,0"/><block position="13,13,0"/>
+    </blockList>
+</world>
