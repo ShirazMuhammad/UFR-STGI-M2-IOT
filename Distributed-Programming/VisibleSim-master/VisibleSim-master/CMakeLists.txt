@@ -613,6 +613,10 @@ add_executable(tpAppMotion2 applicationsSrc/ABC_Center/tpAppMotion2/tpAppMotion2
 target_link_libraries(tpAppMotion2 -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
 install(TARGETS tpAppMotion2 RUNTIME DESTINATION applicationsBin/tpAppMotion2)
 
+add_executable(3Dcatoms applicationsSrc/3D_Catoms/3Dcatoms.cpp applicationsSrc/3D_Catoms/3DcatomsCode.cpp)
+target_link_libraries(3Dcatoms -lCatoms3D -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS 3Dcatoms RUNTIME DESTINATION applicationsBin/3D_Catoms)
+
 #################################################################################
 ############################ REPLAYER ###########################################
 #################################################################################

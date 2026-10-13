@@ -2,7 +2,7 @@
  * \file catoms3DRotationEvents.h
  * \brief Motion events for 3D rotating blocks
  * \date 15/02/2015
- * \author Benoît Piranda, Pierre Thalamy
+ * \author BenoÃ®t Piranda, Pierre Thalamy
  *
  * For now, only Catoms3D implement this kind of movements, if other blocks are added, we may consider creating subclasses of BuildingBlocks depending on the type of motion they implement.
  *
@@ -23,7 +23,7 @@ namespace Catoms3D {
 
     class Catoms3DRotation {
         static std::mt19937 rng;
-        static uniform_int_distribution<mt19937::result_type> randomAnimationDelay;
+        static uniform_int_distribution<int> randomAnimationDelay;
     public:
         static const int ANIMATION_DELAY;
         static const int COM_DELAY;
