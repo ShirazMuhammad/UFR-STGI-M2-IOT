@@ -4,3 +4,4 @@ Machine-Learning/Raphael/.venv/share/jupyter/nbextensions/jupyter-js-widgets/ext
 *.j2
 /Machine-Learning/Raphael/.venv
 *.rar
+*.zip
