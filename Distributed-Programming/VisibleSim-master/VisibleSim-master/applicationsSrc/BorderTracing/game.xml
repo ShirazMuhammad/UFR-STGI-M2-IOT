@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no" ?>
+<world gridSize="17,12,1">
+    <camera target="8,6,0" directionSpherical="-90,89,20" angle="40"/>
+
+    <blockList color="75,75,75,255" blockSize="1,1,1">
+        <!-- Row 2: Bottom of the handles -->
+        <block position="2,2,0"/> <block position="3,2,0"/>
+        <block position="13,2,0"/> <block position="14,2,0"/>
+
+        <!-- Row 3: Thicker part of handles -->
+        <block position="1,3,0"/> <block position="2,3,0"/> <block position="3,3,0"/> <block position="4,3,0"/>
+        <block position="12,3,0"/> <block position="13,3,0"/> <block position="14,3,0"/> <block position="15,3,0"/>
+
+        <!-- Row 4: Solid bottom of main controller body (Collinear test) -->
+        <block position="1,4,0"/> <block position="2,4,0"/> <block position="3,4,0"/> <block position="4,4,0"/> <block position="5,4,0"/> <block position="6,4,0"/> <block position="7,4,0"/> <block position="8,4,0"/> <block position="9,4,0"/> <block position="10,4,0"/> <block position="11,4,0"/> <block position="12,4,0"/> <block position="13,4,0"/> <block position="14,4,0"/> <block position="15,4,0"/>
+
+        <!-- Row 5: Lower Buttons (Internal holes at x=3 and x=11) -->
+        <block position="1,5,0"/> <block position="2,5,0"/>
+        <!-- x=3 is an empty hole -->
+        <block position="4,5,0"/> <block position="5,5,0"/> <block position="6,5,0"/> <block position="7,5,0"/> <block position="8,5,0"/> <block position="9,5,0"/> <block position="10,5,0"/>
+        <!-- x=11 is an empty hole -->
+        <block position="12,5,0"/> <block position="13,5,0"/> <block position="14,5,0"/> <block position="15,5,0"/>
+
+        <!-- Row 6: Upper Buttons (Internal holes at x=5 and x=13) -->
+        <block position="1,6,0"/> <block position="2,6,0"/> <block position="3,6,0"/> <block position="4,6,0"/>
+        <!-- x=5 is an empty hole -->
+        <block position="6,6,0"/> <block position="7,6,0"/> <block position="8,6,0"/> <block position="9,6,0"/> <block position="10,6,0"/> <block position="11,6,0"/> <block position="12,6,0"/>
+        <!-- x=13 is an empty hole -->
+        <block position="14,6,0"/> <block position="15,6,0"/>
+
+        <!-- Row 7: Solid top of main controller body (Collinear test) -->
+        <block position="1,7,0"/> <block position="2,7,0"/> <block position="3,7,0"/> <block position="4,7,0"/> <block position="5,7,0"/> <block position="6,7,0"/> <block position="7,7,0"/> <block position="8,7,0"/> <block position="9,7,0"/> <block position="10,7,0"/> <block position="11,7,0"/> <block position="12,7,0"/> <block position="13,7,0"/> <block position="14,7,0"/> <block position="15,7,0"/>
+
+        <!-- Row 8: Curved top -->
+        <block position="2,8,0"/> <block position="3,8,0"/> <block position="4,8,0"/> <block position="5,8,0"/> <block position="6,8,0"/> <block position="7,8,0"/> <block position="8,8,0"/> <block position="9,8,0"/> <block position="10,8,0"/> <block position="11,8,0"/> <block position="12,8,0"/> <block position="13,8,0"/> <block position="14,8,0"/>
+
+        <!-- Row 9: Shoulder Triggers (L and R) -->
+        <block position="2,9,0"/> <block position="3,9,0"/> <block position="4,9,0"/>
+        <block position="12,9,0"/> <block position="13,9,0"/> <block position="14,9,0"/>
+    </blockList>
+</world>
