@@ -1,0 +1,394 @@
+D:\UFR-STGI-M2-IOT\Distributed-Programming\VisibleSim-master\VisibleSim-master\cmake-build-debug\3Dcatoms.exe -c D:\UFR-STGI-M2-IOT\Distributed-Programming\VisibleSim-master\VisibleSim-master\applicationsSrc\3D_Catoms\config.xml
+←[1;33mStarting Catom3D simulation (main) ...←[0m
+createSimulator:0
+vs tag: no
+initGlut
+Simulation Seed: 174378495
+warning [DEPRECATED]: place windowSize in visuals tag!
+initShaders...D:/UFR-STGI-M2-IOT/Distributed-Programming/VisibleSim-master/VisibleSim-master/simulatorCore/resources/sha
+ders/pointtexShadows.vert
+compilation OK
+compilation OK
+Shaders initialized.
+... ok
+LatticeMode: FCCLattice
+Scheduler Mode :2
+Scheduler Length :1
+warning [DEPRECATED]: use [fov] instead of [angle]!
+warning [DEPRECATED]: use [thetaPhiDist] instead of [directionSpherical]!
+warning [DEPRECATED]: use [thetaPhiDist] instead of [directionSpherical]!
+warning [DEPRECATED]: use [fov] instead of [angle]!
+Scheduler : start order received 0
+Realtime mode scheduler
+=== 3D CATOMS LOCOMOTION: 48 waves (3 cycles forward, 3 up-left, and back), 4 modules at the same time ===
+Module 8 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 1/576 | Running Tasks: 2 | Messages: 295 | Recen
+t: Block ID 47 (idx 0)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 2/576 | Running Tasks: 1 | Messages: 386 | Recen
+t: Block ID 9 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 3/576 | Running Tasks: 0 | Messages: 478 | Recen
+t: Block ID 48 (idx 2)
+Module 7 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 4/576 | Running Tasks: 1 | Messages: 779 | Recen
+t: Block ID 8 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 5/576 | Running Tasks: 0 | Messages: 877 | Recen
+t: Block ID 10 (idx 4)
+Module 6 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 6/576 | Running Tasks: 1 | Messages: 1190 | Rece
+nt: Block ID 7 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 7/576 | Running Tasks: 0 | Messages: 1294 | Rece
+nt: Block ID 1 (idx 6)
+Module 5 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 8/576 | Running Tasks: 1 | Messages: 1599 | Rece
+nt: Block ID 6 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 9/576 | Running Tasks: 0 | Messages: 1699 | Rece
+nt: Block ID 2 (idx 8)
+Module 4 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 10/576 | Running Tasks: 1 | Messages: 2004 | Rec
+ent: Block ID 5 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 11/576 | Running Tasks: 0 | Messages: 2103 | Rec
+ent: Block ID 3 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 1/48 | Transferred Blocks: 12/576 | Running Tasks: 0 | Messages: 2200 | Rec
+ent: Block ID 4 (idx 11)
+Module 18 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 13/576 | Running Tasks: 2 | Messages: 2579 | Rec
+ent: Block ID 41 (idx 0)
+Module 42 (idx 2): BLOCKED at (18,4,3) (goal (22,4,3))
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 14/576 | Running Tasks: 0 | Messages: 2674 | Rec
+ent: Block ID 19 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 15/576 | Running Tasks: 0 | Messages: 2769 | Rec
+ent: Block ID 42 (idx 2)
+Module 17 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 16/576 | Running Tasks: 1 | Messages: 3070 | Rec
+ent: Block ID 18 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 17/576 | Running Tasks: 0 | Messages: 3168 | Rec
+ent: Block ID 20 (idx 4)
+Module 16 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 18/576 | Running Tasks: 1 | Messages: 3481 | Rec
+ent: Block ID 17 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 19/576 | Running Tasks: 0 | Messages: 3584 | Rec
+ent: Block ID 11 (idx 6)
+Module 15 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 20/576 | Running Tasks: 1 | Messages: 3889 | Rec
+ent: Block ID 16 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 21/576 | Running Tasks: 0 | Messages: 3993 | Rec
+ent: Block ID 12 (idx 8)
+Module 14 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 22/576 | Running Tasks: 1 | Messages: 4294 | Rec
+ent: Block ID 15 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 23/576 | Running Tasks: 0 | Messages: 4393 | Rec
+ent: Block ID 13 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 2/48 | Transferred Blocks: 24/576 | Running Tasks: 0 | Messages: 4490 | Rec
+ent: Block ID 14 (idx 11)
+Module 28 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 25/576 | Running Tasks: 2 | Messages: 4880 | Rec
+ent: Block ID 43 (idx 0)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 26/576 | Running Tasks: 1 | Messages: 4971 | Rec
+ent: Block ID 29 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 27/576 | Running Tasks: 0 | Messages: 5063 | Rec
+ent: Block ID 44 (idx 2)
+Module 27 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 28/576 | Running Tasks: 1 | Messages: 5364 | Rec
+ent: Block ID 28 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 29/576 | Running Tasks: 0 | Messages: 5462 | Rec
+ent: Block ID 30 (idx 4)
+Module 26 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 30/576 | Running Tasks: 1 | Messages: 5775 | Rec
+ent: Block ID 27 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 31/576 | Running Tasks: 0 | Messages: 5879 | Rec
+ent: Block ID 21 (idx 6)
+Module 25 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 32/576 | Running Tasks: 1 | Messages: 6184 | Rec
+ent: Block ID 26 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 33/576 | Running Tasks: 0 | Messages: 6284 | Rec
+ent: Block ID 22 (idx 8)
+Module 24 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 34/576 | Running Tasks: 1 | Messages: 6589 | Rec
+ent: Block ID 25 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 35/576 | Running Tasks: 0 | Messages: 6688 | Rec
+ent: Block ID 23 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 3/48 | Transferred Blocks: 36/576 | Running Tasks: 0 | Messages: 6785 | Rec
+ent: Block ID 24 (idx 11)
+Module 38 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 37/576 | Running Tasks: 2 | Messages: 7164 | Rec
+ent: Block ID 45 (idx 0)
+Module 46 (idx 2): BLOCKED at (26,4,3) (goal (30,4,3))
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 38/576 | Running Tasks: 0 | Messages: 7259 | Rec
+ent: Block ID 39 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 39/576 | Running Tasks: 0 | Messages: 7354 | Rec
+ent: Block ID 46 (idx 2)
+Module 37 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 40/576 | Running Tasks: 1 | Messages: 7655 | Rec
+ent: Block ID 38 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 41/576 | Running Tasks: 0 | Messages: 7753 | Rec
+ent: Block ID 40 (idx 4)
+Module 36 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 42/576 | Running Tasks: 1 | Messages: 8066 | Rec
+ent: Block ID 37 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 43/576 | Running Tasks: 0 | Messages: 8169 | Rec
+ent: Block ID 31 (idx 6)
+Module 35 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 44/576 | Running Tasks: 1 | Messages: 8474 | Rec
+ent: Block ID 36 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 45/576 | Running Tasks: 0 | Messages: 8578 | Rec
+ent: Block ID 32 (idx 8)
+Module 34 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 46/576 | Running Tasks: 1 | Messages: 8879 | Rec
+ent: Block ID 35 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 47/576 | Running Tasks: 0 | Messages: 8978 | Rec
+ent: Block ID 33 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 4/48 | Transferred Blocks: 48/576 | Running Tasks: 0 | Messages: 9075 | Rec
+ent: Block ID 34 (idx 11)
+Module 8 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 49/576 | Running Tasks: 2 | Messages: 9465 | Rec
+ent: Block ID 47 (idx 0)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 50/576 | Running Tasks: 1 | Messages: 9556 | Rec
+ent: Block ID 9 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 51/576 | Running Tasks: 0 | Messages: 9648 | Rec
+ent: Block ID 48 (idx 2)
+Module 7 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 52/576 | Running Tasks: 1 | Messages: 9949 | Rec
+ent: Block ID 8 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 53/576 | Running Tasks: 0 | Messages: 10047 | Re
+cent: Block ID 10 (idx 4)
+Module 6 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 54/576 | Running Tasks: 1 | Messages: 10360 | Re
+cent: Block ID 7 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 55/576 | Running Tasks: 0 | Messages: 10464 | Re
+cent: Block ID 1 (idx 6)
+Module 5 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 56/576 | Running Tasks: 1 | Messages: 10769 | Re
+cent: Block ID 6 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 57/576 | Running Tasks: 0 | Messages: 10869 | Re
+cent: Block ID 2 (idx 8)
+Module 4 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 58/576 | Running Tasks: 1 | Messages: 11174 | Re
+cent: Block ID 5 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 59/576 | Running Tasks: 0 | Messages: 11273 | Re
+cent: Block ID 3 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 5/48 | Transferred Blocks: 60/576 | Running Tasks: 0 | Messages: 11370 | Re
+cent: Block ID 4 (idx 11)
+Module 18 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 61/576 | Running Tasks: 2 | Messages: 11749 | Re
+cent: Block ID 41 (idx 0)
+Module 42 (idx 2): BLOCKED at (34,4,3) (goal (38,4,3))
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 62/576 | Running Tasks: 0 | Messages: 11844 | Re
+cent: Block ID 19 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 63/576 | Running Tasks: 0 | Messages: 11939 | Re
+cent: Block ID 42 (idx 2)
+Module 17 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 64/576 | Running Tasks: 1 | Messages: 12240 | Re
+cent: Block ID 18 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 65/576 | Running Tasks: 0 | Messages: 12338 | Re
+cent: Block ID 20 (idx 4)
+Module 16 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 66/576 | Running Tasks: 1 | Messages: 12651 | Re
+cent: Block ID 17 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 67/576 | Running Tasks: 0 | Messages: 12754 | Re
+cent: Block ID 11 (idx 6)
+Module 15 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 68/576 | Running Tasks: 1 | Messages: 13059 | Re
+cent: Block ID 16 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 69/576 | Running Tasks: 0 | Messages: 13163 | Re
+cent: Block ID 12 (idx 8)
+Module 14 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 70/576 | Running Tasks: 1 | Messages: 13464 | Re
+cent: Block ID 15 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 71/576 | Running Tasks: 0 | Messages: 13563 | Re
+cent: Block ID 13 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 6/48 | Transferred Blocks: 72/576 | Running Tasks: 0 | Messages: 13660 | Re
+cent: Block ID 14 (idx 11)
+Module 28 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 73/576 | Running Tasks: 2 | Messages: 14050 | Re
+cent: Block ID 43 (idx 0)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 74/576 | Running Tasks: 1 | Messages: 14141 | Re
+cent: Block ID 29 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 75/576 | Running Tasks: 0 | Messages: 14233 | Re
+cent: Block ID 44 (idx 2)
+Module 27 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 76/576 | Running Tasks: 1 | Messages: 14534 | Re
+cent: Block ID 28 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 77/576 | Running Tasks: 0 | Messages: 14632 | Re
+cent: Block ID 30 (idx 4)
+Module 26 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 78/576 | Running Tasks: 1 | Messages: 14945 | Re
+cent: Block ID 27 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 79/576 | Running Tasks: 0 | Messages: 15049 | Re
+cent: Block ID 21 (idx 6)
+Module 25 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 80/576 | Running Tasks: 1 | Messages: 15354 | Re
+cent: Block ID 26 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 81/576 | Running Tasks: 0 | Messages: 15454 | Re
+cent: Block ID 22 (idx 8)
+Module 24 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 82/576 | Running Tasks: 1 | Messages: 15759 | Re
+cent: Block ID 25 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 83/576 | Running Tasks: 0 | Messages: 15858 | Re
+cent: Block ID 23 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 7/48 | Transferred Blocks: 84/576 | Running Tasks: 0 | Messages: 15955 | Re
+cent: Block ID 24 (idx 11)
+Module 38 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 85/576 | Running Tasks: 2 | Messages: 16334 | Re
+cent: Block ID 45 (idx 0)
+Module 46 (idx 2): BLOCKED at (42,4,3) (goal (46,4,3))
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 86/576 | Running Tasks: 0 | Messages: 16429 | Re
+cent: Block ID 39 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 87/576 | Running Tasks: 0 | Messages: 16524 | Re
+cent: Block ID 46 (idx 2)
+Module 37 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 88/576 | Running Tasks: 1 | Messages: 16825 | Re
+cent: Block ID 38 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 89/576 | Running Tasks: 0 | Messages: 16923 | Re
+cent: Block ID 40 (idx 4)
+Module 36 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 90/576 | Running Tasks: 1 | Messages: 17236 | Re
+cent: Block ID 37 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 91/576 | Running Tasks: 0 | Messages: 17339 | Re
+cent: Block ID 31 (idx 6)
+Module 35 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 92/576 | Running Tasks: 1 | Messages: 17644 | Re
+cent: Block ID 36 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 93/576 | Running Tasks: 0 | Messages: 17748 | Re
+cent: Block ID 32 (idx 8)
+Module 34 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 94/576 | Running Tasks: 1 | Messages: 18049 | Re
+cent: Block ID 35 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 95/576 | Running Tasks: 0 | Messages: 18148 | Re
+cent: Block ID 33 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 8/48 | Transferred Blocks: 96/576 | Running Tasks: 0 | Messages: 18245 | Re
+cent: Block ID 34 (idx 11)
+Module 8 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 97/576 | Running Tasks: 2 | Messages: 18635 | Re
+cent: Block ID 47 (idx 0)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 98/576 | Running Tasks: 1 | Messages: 18726 | Re
+cent: Block ID 9 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 99/576 | Running Tasks: 0 | Messages: 18818 | Re
+cent: Block ID 48 (idx 2)
+Module 7 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 100/576 | Running Tasks: 1 | Messages: 19119 | R
+ecent: Block ID 8 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 101/576 | Running Tasks: 0 | Messages: 19217 | R
+ecent: Block ID 10 (idx 4)
+Module 6 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 102/576 | Running Tasks: 1 | Messages: 19530 | R
+ecent: Block ID 7 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 103/576 | Running Tasks: 0 | Messages: 19634 | R
+ecent: Block ID 1 (idx 6)
+Module 5 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 104/576 | Running Tasks: 1 | Messages: 19939 | R
+ecent: Block ID 6 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 105/576 | Running Tasks: 0 | Messages: 20039 | R
+ecent: Block ID 2 (idx 8)
+Module 4 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 106/576 | Running Tasks: 1 | Messages: 20344 | R
+ecent: Block ID 5 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 107/576 | Running Tasks: 0 | Messages: 20443 | R
+ecent: Block ID 3 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 9/48 | Transferred Blocks: 108/576 | Running Tasks: 0 | Messages: 20540 | R
+ecent: Block ID 4 (idx 11)
+Module 18 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 109/576 | Running Tasks: 2 | Messages: 20919 |
+Recent: Block ID 41 (idx 0)
+Module 42 (idx 2): BLOCKED at (50,4,3) (goal (54,4,3))
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 110/576 | Running Tasks: 0 | Messages: 21014 |
+Recent: Block ID 19 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 111/576 | Running Tasks: 0 | Messages: 21109 |
+Recent: Block ID 42 (idx 2)
+Module 17 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 112/576 | Running Tasks: 1 | Messages: 21410 |
+Recent: Block ID 18 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 113/576 | Running Tasks: 0 | Messages: 21508 |
+Recent: Block ID 20 (idx 4)
+Module 16 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 114/576 | Running Tasks: 1 | Messages: 21821 |
+Recent: Block ID 17 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 115/576 | Running Tasks: 0 | Messages: 21924 |
+Recent: Block ID 11 (idx 6)
+Module 15 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 116/576 | Running Tasks: 1 | Messages: 22229 |
+Recent: Block ID 16 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 117/576 | Running Tasks: 0 | Messages: 22333 |
+Recent: Block ID 12 (idx 8)
+Module 14 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 118/576 | Running Tasks: 1 | Messages: 22634 |
+Recent: Block ID 15 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 119/576 | Running Tasks: 0 | Messages: 22733 |
+Recent: Block ID 13 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 10/48 | Transferred Blocks: 120/576 | Running Tasks: 0 | Messages: 22830 |
+Recent: Block ID 14 (idx 11)
+Module 28 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 121/576 | Running Tasks: 2 | Messages: 23220 |
+Recent: Block ID 43 (idx 0)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 122/576 | Running Tasks: 1 | Messages: 23311 |
+Recent: Block ID 29 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 123/576 | Running Tasks: 0 | Messages: 23403 |
+Recent: Block ID 44 (idx 2)
+Module 27 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 124/576 | Running Tasks: 1 | Messages: 23704 |
+Recent: Block ID 28 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 125/576 | Running Tasks: 0 | Messages: 23802 |
+Recent: Block ID 30 (idx 4)
+Module 26 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 126/576 | Running Tasks: 1 | Messages: 24115 |
+Recent: Block ID 27 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 127/576 | Running Tasks: 0 | Messages: 24219 |
+Recent: Block ID 21 (idx 6)
+Module 25 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 128/576 | Running Tasks: 1 | Messages: 24524 |
+Recent: Block ID 26 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 129/576 | Running Tasks: 0 | Messages: 24624 |
+Recent: Block ID 22 (idx 8)
+Module 24 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 130/576 | Running Tasks: 1 | Messages: 24929 |
+Recent: Block ID 25 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 131/576 | Running Tasks: 0 | Messages: 25028 |
+Recent: Block ID 23 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 11/48 | Transferred Blocks: 132/576 | Running Tasks: 0 | Messages: 25125 |
+Recent: Block ID 24 (idx 11)
+Module 38 (idx 3): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 133/576 | Running Tasks: 2 | Messages: 25504 |
+Recent: Block ID 45 (idx 0)
+Module 46 (idx 2): BLOCKED at (58,4,3) (goal (62,4,3))
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 134/576 | Running Tasks: 0 | Messages: 25599 |
+Recent: Block ID 39 (idx 1)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 135/576 | Running Tasks: 0 | Messages: 25694 |
+Recent: Block ID 46 (idx 2)
+Module 37 (idx 5): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 136/576 | Running Tasks: 1 | Messages: 25995 |
+Recent: Block ID 38 (idx 3)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 137/576 | Running Tasks: 0 | Messages: 26093 |
+Recent: Block ID 40 (idx 4)
+Module 36 (idx 7): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 138/576 | Running Tasks: 1 | Messages: 26406 |
+Recent: Block ID 37 (idx 5)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 139/576 | Running Tasks: 0 | Messages: 26509 |
+Recent: Block ID 31 (idx 6)
+Module 35 (idx 9): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 140/576 | Running Tasks: 1 | Messages: 26814 |
+Recent: Block ID 36 (idx 7)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 141/576 | Running Tasks: 0 | Messages: 26918 |
+Recent: Block ID 32 (idx 8)
+Module 34 (idx 11): no path yet, waiting to be woken again
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 142/576 | Running Tasks: 1 | Messages: 27219 |
+Recent: Block ID 35 (idx 9)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 143/576 | Running Tasks: 0 | Messages: 27318 |
+Recent: Block ID 33 (idx 10)
+[LIVE MONITOR] Phase: FORWARD | Active Wave: 12/48 | Transferred Blocks: 144/576 | Running Tasks: 0 | Messages: 27415 |
+Recent: Block ID 34 (idx 11)
+Module 34 (idx 11): no path yet, waiting to be woken again
+Scheduler end : 747573502
+-----------------------------
+End of simulation
+
+=== GLOBAL STATISTICS ===
+Number of robots: 48
+Simulator elapsed time: 747411820 us
+Real elapsed time: 747573502.00 us
+Number of events processed: 305480
+Number of messages processed: 27510
+Number of motions processed: 2988
+Maximum sized reached by the events list: 191
+Size of the events list at the end: 0
+Events(s) left in memory before destroying Scheduler: 0
+Message(s) left in memory before destroying Scheduler: 18446744073709524106
+Number of events processed per second: 408.63

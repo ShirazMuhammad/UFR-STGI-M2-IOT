@@ -598,8 +598,17 @@ target_link_libraries(tpAppMotion4 -lSlidingCubes -lfreeglut -lmuparser -lOpenGL
 install(TARGETS tpAppMotion4 RUNTIME DESTINATION applicationsBin/tpAppMotion4)
 
 add_executable(BorderTracing applicationsSrc/BorderTracing/BorderTracing.cpp applicationsSrc/BorderTracing/BorderTracingCode.cpp)
+target_include_directories(BorderTracing PRIVATE
+        "${CMAKE_SOURCE_DIR}/simulatorCore/src"
+        "${CMAKE_SOURCE_DIR}/simulatorCore/src/robots/blinkyBlocks"
+        "${CMAKE_SOURCE_DIR}/simulatorCore/src/comm"
+)
 target_link_libraries(BorderTracing -lBlinkyBlocks -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
 install(TARGETS BorderTracing RUNTIME DESTINATION applicationsBin/BorderTracing)
+
+add_executable(Boxes applicationsSrc/Boxes/Boxes.cpp applicationsSrc/Boxes/BoxesCode.cpp)
+target_link_libraries(Boxes -lBlinkyBlocks -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)
+install(TARGETS Boxes RUNTIME DESTINATION applicationsBin/Boxes)
 
 add_executable(SlidingCube applicationsSrc/SlidingCube/SlidingCube.cpp applicationsSrc/SlidingCube/SlidingCubeCode.cpp)
 target_link_libraries(SlidingCube -lSlidingCubes -lfreeglut -lmuparser -lOpenGL32 -lglu32 -lglew32d)

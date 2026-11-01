@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no" ?>
+<world gridSize="15,10,1">
+	<camera target="7,4,0" directionSpherical="-90,89,20" angle="40"/>
+
+	<blockList color="128,136,144,255" blockSize="1,1,1">
+		<!-- Row 0, 1: Solid Base (Collinear optimization test) -->
+		<block position="0,0,0"/> <block position="1,0,0"/> <block position="2,0,0"/> <block position="3,0,0"/> <block position="4,0,0"/> <block position="5,0,0"/> <block position="6,0,0"/> <block position="7,0,0"/> <block position="8,0,0"/> <block position="9,0,0"/> <block position="10,0,0"/> <block position="11,0,0"/> <block position="12,0,0"/> <block position="13,0,0"/> <block position="14,0,0"/>
+		<block position="0,1,0"/> <block position="1,1,0"/> <block position="2,1,0"/> <block position="3,1,0"/> <block position="4,1,0"/> <block position="5,1,0"/> <block position="6,1,0"/> <block position="7,1,0"/> <block position="8,1,0"/> <block position="9,1,0"/> <block position="10,1,0"/> <block position="11,1,0"/> <block position="12,1,0"/> <block position="13,1,0"/> <block position="14,1,0"/>
+
+		<!-- Row 2, 3: Lower walls with internal Gate Hole (x=6, 7, 8 are empty) -->
+		<block position="0,2,0"/> <block position="1,2,0"/> <block position="2,2,0"/> <block position="3,2,0"/> <block position="4,2,0"/> <block position="5,2,0"/>
+		<block position="9,2,0"/> <block position="10,2,0"/> <block position="11,2,0"/> <block position="12,2,0"/> <block position="13,2,0"/> <block position="14,2,0"/>
+
+		<block position="0,3,0"/> <block position="1,3,0"/> <block position="2,3,0"/> <block position="3,3,0"/> <block position="4,3,0"/> <block position="5,3,0"/>
+		<block position="9,3,0"/> <block position="10,3,0"/> <block position="11,3,0"/> <block position="12,3,0"/> <block position="13,3,0"/> <block position="14,3,0"/>
+
+		<!-- Row 4: Solid Middle Floor (Closes the Gate hole, keeping it internal) -->
+		<block position="0,4,0"/> <block position="1,4,0"/> <block position="2,4,0"/> <block position="3,4,0"/> <block position="4,4,0"/> <block position="5,4,0"/> <block position="6,4,0"/> <block position="7,4,0"/> <block position="8,4,0"/> <block position="9,4,0"/> <block position="10,4,0"/> <block position="11,4,0"/> <block position="12,4,0"/> <block position="13,4,0"/> <block position="14,4,0"/>
+
+		<!-- Row 5: Keep and Towers base -->
+		<block position="0,5,0"/> <block position="1,5,0"/> <block position="2,5,0"/> <!-- Left Tower -->
+		<block position="4,5,0"/> <block position="5,5,0"/> <block position="6,5,0"/> <block position="7,5,0"/> <block position="8,5,0"/> <block position="9,5,0"/> <block position="10,5,0"/> <!-- Center Keep -->
+		<block position="12,5,0"/> <block position="13,5,0"/> <block position="14,5,0"/> <!-- Right Tower -->
+
+		<!-- Row 6: Keep Window (Internal hole at x=6, 7, 8) -->
+		<block position="0,6,0"/> <block position="1,6,0"/> <block position="2,6,0"/>
+		<block position="4,6,0"/> <block position="5,6,0"/> <!-- Window Hole --> <block position="9,6,0"/> <block position="10,6,0"/>
+		<block position="12,6,0"/> <block position="13,6,0"/> <block position="14,6,0"/>
+
+		<!-- Row 7: Roofs -->
+		<block position="0,7,0"/> <block position="1,7,0"/> <block position="2,7,0"/>
+		<block position="4,7,0"/> <block position="5,7,0"/> <block position="6,7,0"/> <block position="7,7,0"/> <block position="8,7,0"/> <block position="9,7,0"/> <block position="10,7,0"/>
+		<block position="12,7,0"/> <block position="13,7,0"/> <block position="14,7,0"/>
+
+		<!-- Row 8: Battlements (Zig-zags to defeat collinear optimization) -->
+		<block position="0,8,0"/> <block position="2,8,0"/>
+		<block position="4,8,0"/> <block position="6,8,0"/> <block position="8,8,0"/> <block position="10,8,0"/>
+		<block position="12,8,0"/> <block position="14,8,0"/>
+	</blockList>
+</world>
